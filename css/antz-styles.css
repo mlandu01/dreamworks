@@ -1,0 +1,179 @@
+
+
+
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+
+    main#antz-main {
+	width: 80%;
+	margin: auto;
+}
+
+.video-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.video-flex-item {
+     margin-right: 20px;
+}
+
+img.character {
+    width: 100%;
+}
+
+.character-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.character-flex-item {
+    width: 100%;
+    margin-bottom: 20px;
+}  
+
+p {
+	margin-bottom: 40px;
+	font-family: 'ABeeZee', sans-serif;
+}
+
+.laptop-video {
+	display: none;
+}
+
+p#footer-top {
+	text-align: center;
+}
+
+h2, h1, h3 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+ul.list-text {
+	font-family: 'ABeeZee', sans-serif;
+}
+
+}
+
+
+
+
+/* Tablet */
+
+@media only screen and (min-width: 601px) {
+   
+    main#antz-main {
+	width: 80%;
+	margin: auto;
+}
+
+.video-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.video-flex-item {
+     margin-right: 20px;
+}
+
+img.character {
+    width: 70%;	
+    /*border: 1px solid black;*/
+    /*border-radius: 40%;*/
+}
+
+.character-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.character-flex-item {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.mobile-video {
+	display: none;
+}  
+
+p#footer-top {
+	text-align: center;
+	font-family: 'ABeeZee', sans-serif;
+}
+
+h2, h1, h3 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+ul.list-text {
+	font-family: 'ABeeZee', sans-serif;
+}
+ 
+}
+
+
+
+
+
+/* Laptop, Computer */
+
+@media only screen and (min-width: 1000px) {
+
+main#antz-main {
+	width: 80%;
+	margin: auto;
+}
+
+.video-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.video-flex-item {
+     margin-right: 20px;
+}
+
+img.character {
+    width: 70%;	
+    /*border: 1px solid black;*/
+    /*border-radius: 40%;*/
+}
+
+.character-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.character-flex-item {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.mobile-video {
+	display: none;
+}
+
+p#footer-top {
+	text-align: center;
+	font-family: 'ABeeZee', sans-serif;
+}
+
+h2, h1, h3 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+ul.list-text {
+	font-family: 'ABeeZee', sans-serif;
+}
+
+}
